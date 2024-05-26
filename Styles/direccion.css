@@ -1,0 +1,44 @@
+main{
+    margin-top: 12vh ;
+}
+
+.ubicacion {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    
+}
+
+.map >iframe{
+    width: 50vw;
+    height: 50vh;
+    margin: 5vh;
+}
+.video >iframe{
+    width: 50vw;
+    height: 50vh;
+}
+
+@media (max-width: 550px){
+    h1{
+        margin: 20px;
+    }
+    .map >iframe{
+        width: 80vw;
+        height: 50vh;
+        position: relative;
+        margin: 5vh;
+        top: 5vh;
+    }
+    .video >iframe{
+        width: 80vw;
+        height: 50vh;
+        position: relative;
+        top: 5vh;
+    }
+}
+

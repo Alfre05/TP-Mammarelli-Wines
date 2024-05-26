@@ -1,0 +1,18 @@
+@import "reset.css";
+
+@import "variables.css";
+@import "navbar.css";
+@import "hero.css";
+
+@import "features.css";
+@import "footer.css";
+@import "form.css";
+@import "gente.css";
+@import "historia.css";
+@import "carta.css";
+@import "precios.css";
+
+@import "direccion.css";
+@import "viñedos.css"
+
+

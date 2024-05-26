@@ -1,0 +1,18 @@
+:root{
+    --primary-color: #a3586f;
+    --dark-color: #170102;
+    --backg-color: rgba(241,208,113,0.8)
+
+}
+
+main{
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.text-serif{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight:bold;
+
+}
+

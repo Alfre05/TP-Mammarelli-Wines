@@ -1,0 +1,48 @@
+.historias{
+    
+    margin-top: 4rem;
+}
+
+.historias-wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.historia{
+    
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.historia >p{
+    padding: 1rem;
+}
+
+
+.historia > img{
+    width: 100%;
+    border-radius: 20px;
+    max-width: 450px;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    
+}
+
+.historia-title{
+    font-size: 2rem;
+}
+
+@media (min-width: 768px){
+    h1{
+        margin: 20px;
+    }
+    .historias-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+}
+h1{
+    font-size: 2rem;
+}
